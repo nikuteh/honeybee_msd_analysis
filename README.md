@@ -22,8 +22,6 @@ source bin/activate  # On macOS and Linux. Use `venv\Scripts\activate` on Window
 
 pip install -r requirements.txt
 
-***
-
 ## Notes:
 - There are many different image folders; all the mean squared displacement images that are up-to-date can be found in "/msd_images." Any other mean square displacement images are from previous code tests and are not as relevant as the ones found in /msd_images. All images found from "honeybee_analysis.ipynb" are found in the folder "/plotted_images."  
 - Inside of "msd_code.ipynb", there is code to load a .pkl file titles "all_msd_curves.pkl" from the folder "/modified_data." If this is the first time running, all the code and calculations for the mean squared displacement must be ran for the first time. More details in msd_code.ipynb.
